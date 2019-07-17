@@ -1,0 +1,2 @@
+# zorkenepizda.tk
+sc

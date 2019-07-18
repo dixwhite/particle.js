@@ -16,7 +16,6 @@ Dezvoltatori:
 
 */
 
-
 window.requestAnimFrame = ( function() {
     return window.requestAnimationFrame ||
                 window.webkitRequestAnimationFrame ||
@@ -120,7 +119,7 @@ Firework.prototype.update = function( index ) {
     
     this.distanceTraveled = calculateDistance( this.sx, this.sy, this.x + vx, this.y + vy );
     
-   d
+   
     if( this.distanceTraveled >= this.distanceToTarget ) {
         createParticles( this.tx, this.ty );
         
@@ -216,7 +215,6 @@ function loop() {
    
     requestAnimFrame( loop );
     
-    
   hue= random(0, 360 );
     
     ctx.globalCompositeOperation = 'destination-out';
@@ -232,14 +230,12 @@ function loop() {
         fireworks[ i ].update( i );
     }
     
-
     var i = particles.length;
     while( i-- ) {
         particles[ i ].draw();
         particles[ i ].update( i );
     }
     
-
     if( timerTick >= timerTotal ) {
         if( !mousedown ) {
            

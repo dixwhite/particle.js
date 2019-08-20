@@ -9,8 +9,6 @@ Dezvoltatori:
 
 -d1x4n
 -koral
--dakota
-
 
 
 

@@ -1,8 +1,3 @@
-# zorkenepizda.tk
-
-#https://masarotunda.xyz
-
-
-Devs: d1x4n / koral
+Credits: d1x4n / koral
 
 
